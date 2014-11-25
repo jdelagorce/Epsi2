@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteEpsi", "SiteEpsi\SiteEp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteEpsi.Tests", "SiteEpsi.Tests\SiteEpsi.Tests.csproj", "{94163101-8814-4EE1-A495-54FE34FBA141}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteEpsiAdministration", "SiteEpsiAdministration\SiteEpsiAdministration.csproj", "{B32E46E9-8180-4FF6-AC3F-837AF42F63F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteEpsiAdministration", "SiteEpsiAdministration\SiteEpsiAdministration.csproj", "{61CB044E-DCC3-45DF-8DF3-DBFA7E01A78B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{94163101-8814-4EE1-A495-54FE34FBA141}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94163101-8814-4EE1-A495-54FE34FBA141}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94163101-8814-4EE1-A495-54FE34FBA141}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B32E46E9-8180-4FF6-AC3F-837AF42F63F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B32E46E9-8180-4FF6-AC3F-837AF42F63F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B32E46E9-8180-4FF6-AC3F-837AF42F63F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B32E46E9-8180-4FF6-AC3F-837AF42F63F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61CB044E-DCC3-45DF-8DF3-DBFA7E01A78B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CB044E-DCC3-45DF-8DF3-DBFA7E01A78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CB044E-DCC3-45DF-8DF3-DBFA7E01A78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CB044E-DCC3-45DF-8DF3-DBFA7E01A78B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
