@@ -344,9 +344,6 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
-    <Content Include="Views\Client.cshtml" />
-    <Content Include="Views\View1.cshtml" />
-    <Content Include="Views\View2.cshtml" />
     <Content Include="Views\client\Index.cshtml" />
     <Content Include="Views\client\Details.cshtml" />
     <Content Include="Views\client\Create.cshtml" />
