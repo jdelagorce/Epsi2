@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteEpsi.Tests", "SiteEpsi.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSEpsi", "ConsoleApplication2\WSEpsi.csproj", "{556E90BA-15D8-47A3-B586-D0A6A4E401FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpsiAdmin", "EpsiAdmin\EpsiAdmin.csproj", "{7D079F24-AB8F-4A88-9DE6-D1448C5E20A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpsiAdmin.Tests", "EpsiAdmin.Tests\EpsiAdmin.Tests.csproj", "{700EEFEB-31BB-418E-A68F-F73DF8763672}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{556E90BA-15D8-47A3-B586-D0A6A4E401FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{556E90BA-15D8-47A3-B586-D0A6A4E401FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{556E90BA-15D8-47A3-B586-D0A6A4E401FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D079F24-AB8F-4A88-9DE6-D1448C5E20A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D079F24-AB8F-4A88-9DE6-D1448C5E20A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D079F24-AB8F-4A88-9DE6-D1448C5E20A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D079F24-AB8F-4A88-9DE6-D1448C5E20A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{700EEFEB-31BB-418E-A68F-F73DF8763672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700EEFEB-31BB-418E-A68F-F73DF8763672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700EEFEB-31BB-418E-A68F-F73DF8763672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700EEFEB-31BB-418E-A68F-F73DF8763672}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
