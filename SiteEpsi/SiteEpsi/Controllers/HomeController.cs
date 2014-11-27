@@ -10,7 +10,7 @@ namespace SiteEpsi.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            ViewBag.Message = "Espace privé client de l'EPSI. Ca va dégommer !.";
 
             return View();
         }
