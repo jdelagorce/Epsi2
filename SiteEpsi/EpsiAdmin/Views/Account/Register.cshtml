@@ -35,3 +35,93 @@
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
 }
+@model EpsiAdmin.Client
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Formulaire d'inscription</legend>
+        <ol>
+            <li>
+                @Html.LabelFor(model => model.LastName)
+                    @Html.EditorFor(model => model.LastName)
+                    @Html.ValidationMessageFor(model => model.LastName)
+            </li>
+            <li>
+                @Html.LabelFor(model => model.FirstName)
+                @Html.EditorFor(model => model.FirstName)
+                @Html.ValidationMessageFor(model => model.FirstName)
+            </li>
+            <li>
+                @Html.LabelFor(model => model.Email)
+                @Html.EditorFor(model => model.Email)
+                @Html.ValidationMessageFor(model => model.Email)
+            </li>
+            <li>
+                    @Html.LabelFor(model => model.Password)
+                    @Html.PasswordFor(model => model.Password)
+                    @Html.ValidationMessageFor(model => model.Password)
+             </li>
+            <li>
+                @Html.LabelFor(model => model.Password)
+                @Html.PasswordFor(model => model.Password)
+                @Html.ValidationMessageFor(model => model.Password)
+            </li>
+            <li>
+                @Html.LabelFor(model => model.BirthDate)
+                @Html.EditorFor(model => model.BirthDate)
+                @Html.ValidationMessageFor(model => model.BirthDate)
+            </li>
+
+            <li>
+                @Html.LabelFor(model => model.Address1)
+                @Html.EditorFor(model => model.Address1)
+                @Html.ValidationMessageFor(model => model.Address1)
+            </li>
+            <li>
+                @Html.LabelFor(model => model.Address2)
+                @Html.EditorFor(model => model.Address2)
+                @Html.ValidationMessageFor(model => model.Address2)
+            </li>
+            <li>
+                @Html.LabelFor(model => model.ZipCode)
+                @Html.EditorFor(model => model.ZipCode)
+                @Html.ValidationMessageFor(model => model.ZipCode)
+            </li>
+
+            <li>
+                @Html.LabelFor(model => model.City)
+                @Html.EditorFor(model => model.City)
+                @Html.ValidationMessageFor(model => model.City)
+            </li>
+
+            <li>
+                @Html.LabelFor(model => model.Role)
+                @Html.EditorFor(model => model.Role)
+                @Html.ValidationMessageFor(model => model.Role)
+            </li>
+
+                <p>
+                    <input type="submit" value="Create" />
+                </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
