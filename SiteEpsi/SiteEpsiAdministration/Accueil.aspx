@@ -10,9 +10,12 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <asp:ListBox ID="ListBox1" runat="server" OnSelectedIndexChanged="ListBox1_SelectedIndexChanged" AppendDataBoundItems="True" CausesValidation="True" ValidateRequestMode="Disabled"></asp:ListBox>
+        <asp:ListBox ID="ListBox1" runat="server"></asp:ListBox>
     </div>
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Valider" />
+        <p>
         <asp:Label ID="Label1" runat="server" Text="Label" ValidateRequestMode="Enabled"></asp:Label>
+        </p>
     </form>
 </body>
 </html>
